@@ -1,0 +1,11 @@
+{
+  "name": "Wordle Solver",
+  "description": "Wordle word suggester",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://*/"]
+}
