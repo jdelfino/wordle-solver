@@ -8,22 +8,25 @@
 </head>
 <body>
     <div class="container mt-3 text-center">
-        <div class="my-3">Guesses so far</div>
-        <div id="guesses" class="game-board"></div>
         <div class="my-3">
             <button id="sug" type="button" class="btn btn-primary">Get Suggestion</button>
         </div>
-        <div id="suggestion" class="game-board">
-            <div class="letter-row">
-                <div class="letter-box"></div>
-                <div class="letter-box"></div>
-                <div class="letter-box"></div>
-                <div class="letter-box"></div>
-                <div class="letter-box"></div>
+        <div id="info" style="display:none">
+            <div class="my-3">Guesses so far</div>
+            <div id="guesses" class="game-board"></div>
+            <div class="my-3">Suggestion</div>
+            <div id="suggestion" class="game-board">
+                <div class="letter-row">
+                    <div class="letter-box"></div>
+                    <div class="letter-box"></div>
+                    <div class="letter-box"></div>
+                    <div class="letter-box"></div>
+                    <div class="letter-box"></div>
+                </div>
             </div>
+            <div class="my-3">Possibilities remaining: <span id="possibilities-remaining"></span></div>
+            <div id="score-parent" class="my-3">Avg. possibilities after guess: <span id="score"></span></div>
         </div>
-        <div class="my-3">Possibilities remaining: <span id="possibilities-remaining"></span></div>
-        <div id="score-parent" class="my-3" style="display:none">Avg. possibilities after guess: <span id="score"></span></div>
     </div>
     <script src="script.js"></script>
 </body>
