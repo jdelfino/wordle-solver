@@ -4,6 +4,8 @@ Chrome extension to suggest best next wordle guess, using a naive "eliminate the
 
 The extension works with https://wordlegame.org/, which is a Wordle clone that can be played repeatedly.
 
+(screenshot of extension)[screenshot.png?raw=true "Example screenshot"]
+
 # Theory Resources
 
 [WordleBot](https://www.nytimes.com/interactive/2022/upshot/wordle-bot.html), a tool that will analyze your wordle game to tell you how good your guesses were.
