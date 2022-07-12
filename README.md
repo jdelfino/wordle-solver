@@ -4,7 +4,7 @@ Chrome extension to suggest best next wordle guess, using a naive "eliminate the
 
 The extension works with https://wordlegame.org/, which is a Wordle clone that can be played repeatedly.
 
-[screenshot of extension](screenshot.png?raw=true "Example screenshot")
+[Screenshot](screenshot.png?raw=true "Example screenshot")
 
 # Theory Resources
 
