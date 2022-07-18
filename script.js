@@ -1,7 +1,8 @@
 // Process the guesses extracted from the page:
-// 1. Compute the remaining solution possibilities, and update the count shown in the extension.
-// 2. If making a suggestion, compute the best next word, update the suggestion in the extension,
-//    and update the score displayed in the extension.
+// 1. Compute the remaining solution possibilities
+// 2. Score each guess and pick the one that, on average, leaves us with the fewest remaining
+//    possibilities after guessing.
+// 2. Update the extension UI to display the suggestion, and some stats.
 // `guesses` is an array of arrays of objects:
 //         { value: <character>, color: <"green"|"yellow"|"grey">}
 function makeSuggestion(guesses) {
