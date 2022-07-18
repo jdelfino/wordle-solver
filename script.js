@@ -194,7 +194,6 @@ function updateExtensionUi(guesses, possibilities, suggestion) {
 
 // Refresh the guesses shown in the extension. This effectively runs "getGuesses()" in the
 // context of the active tab.
-// `suggest` is a boolean, indicating whether a suggestion should be computed or not.
 function refresh() {
   // This call finds the active tab, then executes getGuesses() in the context of that tab.
   // chrome library API docs can be found here:
